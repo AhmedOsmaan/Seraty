@@ -1,6 +1,6 @@
-# quraany
+# Seraty
 
-A new Flutter project.
+An islamic application.
 
 ## Getting Started
 
