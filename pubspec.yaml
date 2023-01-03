@@ -1,0 +1,85 @@
+name: seraty
+description: Holy Quran.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  shared_preferences: ^2.0.15
+  http: ^0.13.5
+  arabic_numbers: ^1.0.0
+  radio_player: ^1.0.0
+  introduction_screen: ^3.0.2
+  lottie: ^1.4.2
+  flutter_qiblah: ^2.0.2
+  geolocator: ^7.6.0
+  flutter_svg: ^1.1.4
+  url_launcher: ^6.1.5
+  font_awesome_flutter: ^10.1.0
+  ionicons: ^0.2.1
+  animated_bottom_navigation_bar: ^1.1.0
+
+dev_dependencies: 
+  flutter_test:
+    sdk: flutter
+  
+  flutter_launcher_icons: "^0.11.0"
+
+flutter_icons:
+  android: true
+  # adaptive_icon_foreground: "assets/images/logo.png"
+  # adaptive_icon_background: "#ffffff"
+  ios: true
+  image_path: "assets/images/seraty.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/seraty.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/seraty.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/seraty.png"
+
+  
+
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/content/
+    - assets/sName/
+    - assets/txts/
+
+  fonts:
+    - family: quranFont
+      fonts:
+        - asset: assets/font/tfont.ttf
+
+    - family: Cairo
+      fonts:
+        - asset: assets/font/Cairo-Regular.ttf
+
